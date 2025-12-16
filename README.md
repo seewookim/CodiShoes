@@ -82,7 +82,8 @@ CodiShoes는 사용자의 스타일, 상황, 선호도를 분석하여
 착용 목적은 일상 활동이다.
 
 위 조건에 가장 적합한 신발 스타일을 추천하라.
-🔹 프롬프트 설계 전략
+
+🔹프롬프트 설계 전략
 
 1.조건 명시형 구조
 
@@ -114,7 +115,7 @@ Data Storage	SharedPreferences
 UI	RecyclerView, ConstraintLayout
 com.example.codishoes
 
-📂 프로젝트 구조
+### 📂 프로젝트 구조
  ┣ model
  ┃ ┣ RecommendationEngine.kt
  ┃ ┣ SavedOutfit.kt
