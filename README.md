@@ -75,87 +75,102 @@ CodiShoes는 사용자의 스타일, 상황, 선호도를 분석하여
 
 ### 🔹 프롬프트 구조 예시
 
-``` text
-사용자의 스타일은 캐주얼이며,
-주요 색상은 흰색과 검정색,
-가격대는 중저가,
-착용 목적은 일상 활동이다.
+- text
 
-위 조건에 가장 적합한 신발 스타일을 추천하라.
+- '사용자의 스타일은 캐주얼이며,
+- 주요 색상은 흰색과 검정색,
+- 가격대는 중저가,
+- 착용 목적은 일상 활동이다.
+
+- 위 조건에 가장 적합한 신발 스타일을 추천하라.'
 
 ### 🔹 프롬프트 설계 전략
 
 - 1.조건 명시형 구조
 
-스타일 / 색상 / 가격 / 상황을 명확히 구분
+- 스타일 / 색상 / 가격 / 상황을 명확히 구분
 
-2.불필요한 자연어 최소화
+- 2.불필요한 자연어 최소화
 
-AI 판단에 필요한 핵심 정보만 제공
+- AI 판단에 필요한 핵심 정보만 제공
 
-3.일관된 입력 포맷 유지
+- 3.일관된 입력 포맷 유지
 
-추천 결과의 안정성과 재현성 확보
+- 추천 결과의 안정성과 재현성 확보
 
-🔹 프롬프트 적용 영역
+### 🔹 프롬프트 적용 영역
 
-신발 추천 로직 설계
+- 신발 추천 로직 설계
 
-코디 요약 문구 생성
+- 코디 요약 문구 생성
 
-추천 결과 설명 문장 구성
+- 추천 결과 설명 문장 구성
 
-🛠 기술 스택
-구분	기술
-Language	Kotlin
-Platform	Android
-Architecture	MVVM
-AI Logic	Custom Recommendation Engine
-Data Storage	SharedPreferences
-UI	RecyclerView, ConstraintLayout
-com.example.codishoes
+---
 
-### 📂 프로젝트 구조
- ┣ model
- ┃ ┣ RecommendationEngine.kt
- ┃ ┣ SavedOutfit.kt
- ┃ ┣ SavedOutfitStorage.kt
- ┣ ui
- ┃ ┣ MainActivity.kt
- ┃ ┣ ResultActivity.kt
- ┃ ┣ SavedOutfitsActivity.kt
- ┃ ┣ FavoritesActivity.kt
- ┣ adapter
- ┃ ┣ SavedOutfitAdapter.kt
+## 🛠 기술 스택
+- 구분	기술
+- Language	Kotlin
+- Platform	Android
+- Architecture	MVVM
+- AI Logic	Custom Recommendation Engine
+- Data Storage	SharedPreferences
+- UI	RecyclerView, ConstraintLayout
+- com.example.codishoes
 
-🎬 데모 영상
+---
 
-https://youtube.com/shorts/CUonXAHP1i8
+## 📂 프로젝트 구조
+ - ┣ model
+ - ┃ ┣ RecommendationEngine.kt
+ - ┃ ┣ SavedOutfit.kt
+ - ┃ ┣ SavedOutfitStorage.kt
+ - ┣ ui
+ - ┃ ┣ MainActivity.kt
+ - ┃ ┣ ResultActivity.kt
+ - ┃ ┣ SavedOutfitsActivity.kt
+ - ┃ ┣ FavoritesActivity.kt
+ - ┣ adapter
+ - ┃ ┣ SavedOutfitAdapter.kt
 
-🚀 향후 개선 방향
+---
 
-실제 딥러닝 모델(TensorFlow Lite) 연동
+## 🎬 데모 영상
 
-사용자 행동 로그 기반 추천 고도화
+- https://youtube.com/shorts/CUonXAHP1i8
 
-클라우드 기반 코디 데이터 동기화
+---
 
-신발 이미지 기반 스타일 분류 기능 추가
+## 🚀 향후 개선 방향
 
-👤 개발자
+- 실제 딥러닝 모델(TensorFlow Lite) 연동
 
-이름: 김시우, 이나윤, 김지원
+- 사용자 행동 로그 기반 추천 고도화
 
-프로젝트 성격: 딥러닝 / AI 기반 Android 앱 개발 과제
+- 클라우드 기반 코디 데이터 동기화
 
-📎 제출물 구성
+- 신발 이미지 기반 스타일 분류 기능 추가
 
-✔ README.md
+---
 
-✔ Android 소스코드
+## 👤 개발자
 
-✔ 발표 자료(PPT)
+- 이름: 김시우, 이나윤, 김지원
 
-✔ 프롬프트 설계 문서 (본 README 포함)
+- 프로젝트 성격: 딥러닝 / AI 기반 Android 앱 개발 과제
 
-✔ 데모 영상
+---
+
+## 📎 제출물 구성
+
+- ✔ README.md
+
+- ✔ Android 소스코드
+
+---
+
+- ✔ 발표 자료(PPT)
+
+- ✔ 프롬프트 설계 문서 (본 README 포함)
+
+- ✔ 데모 영상
